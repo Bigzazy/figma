@@ -1,0 +1,468 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: rgba(255, 255, 255, 0.500);
+   font-family: sans-serif;
+}
+body{
+    background: #000000;
+}
+#one{
+    display: flex;
+    padding-left: 4em;
+    padding-top: 2em;
+}
+#two{
+    color: aqua;
+}
+.app{
+    display: flex;
+    margin-top: 5em;
+}
+
+.app img{
+    height:79vh;
+    padding-left: 4em;
+}
+.op{
+    margin-left: 3.5em;
+}
+.header{
+    display: flex;
+}
+
+.main{
+    background: #00040f;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 130px;
+}
+
+.logo{
+    display: flex;
+  
+}
+.logo p{
+    padding-left: 3px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo span{
+    color: antiquewhite;
+}
+nav{
+    padding-top: 2em;
+    gap: 2em;
+    display: flex;
+    padding-left: 35em;
+}
+nav a{
+    text-decoration: none;
+   gap: 2em;
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.500);
+}
+nav a:hover{
+    color: white;
+}
+.rest{
+    display: flex;
+   
+    background: linear-gradient(44deg, #272727 10%, #11101D 90%);
+    padding: 4px 20px;
+    border-radius: 12px;
+    margin-top: 170px;
+}
+.left h1{
+    margin-top: 10px;
+    color: white;
+    font-size: 80px;
+    width: 50vw;
+    line-height: 1.3;
+}
+span{
+    color: transparent;
+    background: linear-gradient(20deg, aqua, aquamarine, white);
+    -webkit-background-clip: text;
+}
+button{
+    cursor: pointer;
+}
+.under{
+    font-size: 19px;
+    width: 32vw;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+.center{
+    background: none;
+   
+    top: 50%;
+    right: 50%;
+}
+.center:hover{
+    cursor: pointer;
+}
+.hand{
+   
+    width: 50vw;
+    right: 0;
+    top: 100px;
+    background: transparent;
+}
+.glow{
+    background: transparent;
+   
+}
+.under h2{
+    color: white;
+}
+.li{
+    width: 2px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.group{
+    display: flex;
+   
+}
+.bottom{
+   display: flex;
+   
+   padding-left: 4em;
+   padding-top: 4em;
+}
+.bottom h3{
+    color: aqua;
+}
+.bottom h2{
+    color: white;
+    margin-right: 20px;
+    font-size: 40px;
+}
+ .major{
+    margin-left: 3em;
+} 
+#three{
+    display: flex;
+    margin-left: 1.5em;
+}
+#four{
+    display: flex;
+    margin-left: 6em;
+}
+#five{
+    display: flex;
+    margin-left: 4em;
+}
+.second{
+    margin-top: 100px;
+}
+.second h2{
+    font-size: 50px;
+    color: white;
+}
+.second p{
+    font-size: 19px;
+    line-height: 1.8;
+}
+.second button{
+    border: none;
+    color: black;
+    background: linear-gradient(300deg, rgb(6, 255, 255),rgb(142, 255, 217));
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 12px;
+}
+.hov{
+    display: flex;
+   
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.text h3{
+    padding-bottom: 10px;
+    color: white;
+}
+.second{
+    display: flex;
+   
+}
+.second .one{
+    margin-right: 80px;
+}
+.second .two{
+    width: 55vw;
+}
+.texts{
+    padding-left: 20px;
+    width: 25rem;
+}
+.texts p{
+    line-height: 1.5;
+}
+.one h2{
+    width: 37rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.one p{
+    width: 36rem;
+    margin-bottom: 30px;
+}
+img{
+    background: none;
+}
+.texts{
+    background: none;
+}
+.text h3{
+    background: none;
+}
+.trans{
+    background: none;
+}
+.hov:hover{
+    cursor: pointer;
+    background: linear-gradient(44deg, #272727 10%, #11101D 90%);
+}
+.third{
+    display: flex;
+    
+    margin-top: 150px;
+}
+.float{
+    width: 41vw;
+}
+.write h2{
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.wrte p{
+    font-size: 19px;
+    line-height: 1.8;
+    width: 33rem;
+    margin-bottom: 50px;
+}
+.write{
+    padding-top: 50px;
+    margin-left: 150px;
+}
+.shift{
+    margin-left: 30px;
+}
+.pop h2{
+width: 35rem;
+font-size: 50px;
+color: blue;
+line-height: 1.5;
+margin-bottom: 30px;
+}
+.pop p{
+    font-size: 19px;
+    line-height: 1.8;
+    width: 33rem;
+    margin-bottom: 50px;
+}
+.fourth{
+    display: flex;
+   
+    margin-top: 150px;
+}
+.pop button{
+    font-size: 19px;
+    border: none;
+    color: black;
+    background: linear-gradient(300deg, rgba(6, 255, 255) aquamarine, rgba(142, 255, 217));
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+.flat{
+    width: 38vw;
+    margin-top: 150px;
+}
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.fifth h2{
+    width: 35vw;
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+}
+.fifth p{
+    font-size: 19px;
+    line-height: 1.8;
+    width: 26rem;
+    margin-left: 200px;
+}
+.grp p{
+    background: none;
+    font-size: 19px;
+    line-height: 1.8;
+}
+.founder img{
+    height: 50px;
+}
+.founder{
+    background: none;
+    display: flex;
+   
+}
+.founder p{
+    line-height: 1.2;
+}
+.foundera img{
+    height: 50px;
+}
+.foundera{
+    background: none;
+    display: flex;
+    
+}
+.foundera p{
+    line-height: 1.2;
+}
+.imp{
+    color: white;
+    font-size: medium;
+}
+.import p{
+font-size: medium;
+}
+.sixth{
+    padding-top: 50px;
+    display: flex;
+   
+}
+.grp{
+    padding: 20px;
+    width: 33vw;
+}
+.grpa{
+    padding: 20px;
+    width: 33vw;
+}
+.grpb{
+    padding: 20px;
+    width: 33vw;
+}
+.grp p{
+    width: 18rem;
+}
+.grpa{
+    cursor: pointer;
+    background: none;
+    margin-right: 5rem;
+    font-size: 19px;
+    line-height: 1.8;
+    border-radius: 12px;
+}
+.grpb{
+    cursor: pointer;
+    border-radius: 12px;
+    background: none;
+    font-size: 19px;
+    line-height: 1.8;
+}
+.grp{
+    cursor: pointer;
+    border-radius: 12px;
+    background: none;
+    margin-right: 4rem;
+}
+.founder{
+    margin-top: 60px;
+}
+.foundera{
+    margin-top: 28px;
+}
+.grp:hover{
+    background: linear-gradient(44deg #272727 10%, #11101D 90%);
+}
+.grpa:hover{
+    background: linear-gradient(44eg #272727 10, #11101D);
+}
+.grpb:hover{
+    background: linear-gradient(44eg #272727 10, #11101D);
+}
+.seventh img{
+    height: 40px;
+}
+.seventh{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    
+   
+}
+footer{
+    background: #11101D;
+    padding-left: 60px;
+    padding-right: 130px;
+    padding-top: 70px;
+}
+.stuff{
+    display: flex;
+    
+}
+.onset h4,p{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.hd{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.extr img{
+    width: 14rem;
+}
+.extr p{
+    margin-top: 20px;
+    width: 18rem;
+}
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+.und{
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.stuff{
+    margin-bottom: 20px;
+}
+.other{
+    display: flex;
+   
+   
+    margin-top: 15px;
+    padding: 10px;
+}
+.other img{
+    height: 20px;
+    margin-top: 10px;
+}
+body{
+    overflow: none;
+    width: 100vw;
+}
+.third{
+    display: flex;
+}
+.third img{
+    width: 33rem;
+}
+.write{
+    width: 30rem;
+}
